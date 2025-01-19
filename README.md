@@ -101,7 +101,7 @@ The project contains several scripts that automate the testing of different matr
 
 Each CSV file contains detailed measurement data (e.g., matrix size, number of processes/threads, average execution time) for further analysis and plotting, while each TXT file provides a summarized, human-readable version of the results.
 
-To ensure proper script execution on the cluster, remember to run `dos2unix` and `chmod +x` on all scripts before submitting the job.
+To ensure proper script execution on the cluster, remember to run `dos2unix` and `chmod +x` on all scripts before running them without using the mpi.pbs file.
 
 ## Manual Execution
 
