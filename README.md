@@ -18,7 +18,7 @@ For detailed problem statement and performance analysis, please refer to [report
 ## Project Structure
 
 ```plaintext
-matrix-transposition-MPI/
+matrix-transposition-MPI-main/
 ├── projectRoot/
 │   ├── mpi.pbs                  # PBS job submission script
 │   ├── src/                     # Source files (C code for the different implementations)
@@ -63,7 +63,7 @@ The provided PBS script `mpi.pbs` (located at the project root) compiles and run
 To submit the job from the project root follow these steps:
 1. Navigate to the Project Directoy
    ```
-   cd matrix-transposition-MPI/projectRoot
+   cd matrix-transposition-MPI-main/projectRoot
    ```
    Convert to Unix format the `mpi.pbs` file and ensure it's executable
    ```
